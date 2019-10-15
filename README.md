@@ -1,6 +1,6 @@
-# moment5.2
+# Moment5.2 - Webbapp
 
-Detta repo innehåller en webbtjänst som hämtar innehåll med Fetch API.
+Detta repo innehåller en webbapp som hämtar innehåll med Fetch API.
 
 Klona: git clone git clone https://github.com/meethilda/moment5.2.git
 
