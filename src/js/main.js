@@ -2,7 +2,7 @@
 const course = document.getElementById('course-items');
 const submit = document.getElementById('mysubmit');
 
-const url = 'http://localhost/moment-5_1/read.php/course';
+const url = 'http://studenter.miun.se/~maed1801/dt173g/moment5-1/read.php/course';
 
 // Fetch API
 fetch(url)
@@ -34,7 +34,7 @@ fetch(url)
                 <td>${arrJson[i].name}</td>
                 <td>${arrJson[i].progression}</td>
                 <td>${urlOutput}</td>
-                <td><a onclick="deletePost(${arrJson[i].id})" class="delete" title="Radera ${arrJson[i].name}">X</a> <a onclick="changePost(${arrJson[i].id})" class="delete" title="Ändra ${arrJson[i].name}">Y</a></td>
+                <td><a onclick="deletePost(${arrJson[i].id})" class="delete" title="Radera ${arrJson[i].name}">X</a></td>
             </tr>`;
         }
     });
